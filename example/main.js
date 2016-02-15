@@ -23,7 +23,7 @@ var Countries = ["Afghanistan","Albania","Algeria","Andorra","Angola","Anguilla"
  * The example below uses the `WithContext` since this the sole component
  * using the react-dnd component.
 */
-var Tags = ReactTags.WithContext;
+var Tags = ReactTags.WithOutContext;
 
 var App = React.createClass({
     getInitialState: function() {
